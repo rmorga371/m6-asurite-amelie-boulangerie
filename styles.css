@@ -65,6 +65,7 @@ nav a {
 
 p {
     display: inline-block;
+    margin-left: 32px;
 
 }
 
@@ -72,9 +73,18 @@ nav ul{
     display: inline-block;
 }
 
+ul {
+    margin-left: 16px;
+}
+
+address {
+    clear: both;
+}
+
 footer {
     width: 1000px;
     margin: auto;
+    text-align: center;
     font-style: italic;
     background-color: #afaeb4;
     padding-top: 8px;
