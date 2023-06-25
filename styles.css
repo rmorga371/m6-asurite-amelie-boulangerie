@@ -59,7 +59,7 @@ main img {
 }
 
 nav {
-    width: 150px;
+    width: 210px;
     margin-top: 16px;
 }
 
@@ -69,7 +69,7 @@ nav li {
 }
 
 nav a {
-    display: inline-block;
+    display: block;
     padding: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
