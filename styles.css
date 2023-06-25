@@ -18,6 +18,7 @@ header {
     width: 1000px;
     height: 150px;
     background-color: #141a1a;
+    background-image: url(bowl.jpg);
     color: white;
     margin: auto;
 }
@@ -27,7 +28,6 @@ h1 {
     margin: auto;
     padding-top: 50px;
     padding-left: 32px;
-    background-image: bowl.jpg;
 }
 
 img {
