@@ -14,11 +14,27 @@ main {
     display: inline-block;
 }
 
+main p, ul {
+    display: inline-block;
+    width: 50%;
+
+}
+
+main p {
+    margin-left: 32px;
+}
+
+main ul {
+    margin-left: 16px;
+}
+
 header {
     width: 1000px;
     height: 150px;
     background-color: #141a1a;
     background-image: url(bowl.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
     color: white;
     margin: auto;
 }
@@ -54,7 +70,7 @@ nav li {
 }
 
 nav a {
-    display: block;
+    display: inline-block;
     padding: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -68,20 +84,6 @@ nav a {
 
 nav a:home {
     background-color: #f28095;
-}
-
-p {
-    display: inline-block;
-    margin-left: 32px;
-
-}
-
-nav ul{
-    display: inline-block;
-}
-
-ul {
-    margin-left: 16px;
 }
 
 address {
