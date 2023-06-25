@@ -22,10 +22,12 @@ header {
     margin: auto;
 }
 
+
 h1 {
     margin: auto;
     padding-top: 50px;
     padding-left: 32px;
+    background-image: bowl.jpg;
 }
 
 img {
