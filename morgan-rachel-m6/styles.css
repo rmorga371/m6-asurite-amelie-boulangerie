@@ -1,0 +1,163 @@
+Reset bgins
+---------------------------------------------------------------------
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ Reset ends
+ https://meyerweb.com/eric/tools/css/reset/
+
+--------------------------------------------------------------------
+
+ * {
+    font-family: verdana, arial, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #F28095;
+    margin: 0;
+}
+
+main {
+    color: #542c1b;
+    padding-bottom: 16px;
+    display: inline-block;
+}
+
+main p, ul {
+    display: inline-block;
+    width: 50%;
+
+}
+
+main p {
+    margin-left: 32px;
+}
+
+main ul {
+    margin-left: 16px;
+}
+
+header {
+    width: 1000px;
+    height: 150px;
+    background-color: #141a1a;
+    background-image: url(bowl.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: white;
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 32px;
+}
+
+main img {
+    float: left;
+}
+
+#grid-container {
+    width: 1000px;
+    margin: auto;
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+}
+
+nav {
+    width: 150px;
+    margin-top: 16px;
+}
+
+nav li {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e0e5de;
+    color: 141a1a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #f28095;
+}
+
+.home {
+    background-color: #f28095;
+}
+
+address {
+    clear: both;
+    padding-top: 16px;
+}
+
+footer {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    background-color: #afaeb4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 0;
+    padding-left: 0;
+}
